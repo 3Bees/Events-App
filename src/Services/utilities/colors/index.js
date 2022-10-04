@@ -1,0 +1,20 @@
+export const colors = {
+  black: '#000',
+  white: '#FFFFFF',
+  lighttexts: '#CECECE',
+  lightbluebackground: '#F9F9F9',
+  ButtonColor: '#454545',
+  //
+  splash: '#18203D',
+  royal: '#294CCB',
+  red: '#D83B45',
+  green: '#32961F',
+  border: '#8B8F9E',
+  greyText: '#74798B',
+  lighterblue: '#EAEDFA',
+  lightroyal: '#6981DB',
+  silver: '#E8E9EC',
+  dashBorders: '#5D6377',
+  disabledText: '#A3A6B1',
+  lightgreen: '#A6E77E',
+};

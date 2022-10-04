@@ -1,0 +1,14 @@
+com/poa/BuildConfig.java
+ com.poa.BuildConfig
+com/poa/ReactNativeFlipper.java
+ com.poa.ReactNativeFlipper
+ com.poa.ReactNativeFlipper$1
+ com.poa.ReactNativeFlipper$2
+ com.poa.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/poa/MainActivity.java
+ com.poa.MainActivity
+com/poa/MainApplication.java
+ com.poa.MainApplication
+ com.poa.MainApplication$1

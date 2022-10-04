@@ -1,0 +1,180 @@
+import React from 'react';
+import {Button, StyleSheet, Text, View} from 'react-native';
+import {
+  responsiveHeight,
+  responsiveWidth,
+  responsiveFontSize,
+  responsiveScreenHeight,
+  responsiveScreenFontSize,
+  responsiveScreenWidth,
+} from 'react-native-responsive-dimensions';
+import {colors, fontFamily} from '../../../Services';
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: colors.white,
+  },
+  grayLogo: {
+    height: responsiveHeight(5),
+    width: responsiveWidth(10),
+    resizeMode: 'contain',
+    marginTop: responsiveHeight(3),
+    marginLeft: responsiveWidth(5),
+  },
+  VideoThumbnail: {
+    width: responsiveWidth(90),
+    height: responsiveHeight(27.5),
+    resizeMode: 'cover',
+    marginVertical: responsiveHeight(3),
+    alignSelf: 'center',
+    paddingHorizontal: responsiveWidth(4),
+  },
+  PlayCircle: {
+    height: responsiveHeight(5),
+    width: responsiveWidth(10),
+    resizeMode: 'contain',
+    marginTop: responsiveHeight(9),
+  },
+  VideoText: {
+    color: colors.white,
+    fontFamily: fontFamily.medium,
+    fontSize: responsiveFontSize(3.5),
+    marginTop: responsiveHeight(1),
+  },
+  ImageBackground: {
+    width: responsiveWidth(42),
+    height: responsiveWidth(42),
+    resizeMode: 'contain',
+    paddingHorizontal: responsiveWidth(3),
+  },
+  FlatListTopView: {
+    marginLeft: responsiveWidth(5),
+  },
+  grayHeading: {
+    color: colors.greyText,
+    fontFamily: fontFamily.regular,
+    marginBottom: responsiveHeight(0.5),
+  },
+  TitleView: {
+    backgroundColor: colors.splash,
+    borderRadius: responsiveWidth(1),
+    paddingVertical:responsiveHeight(0.5),
+    paddingHorizontal:responsiveHeight(0.7),    
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  title: {
+    color: colors.white,
+    fontFamily: fontFamily.bold,
+    fontSize: responsiveFontSize(1.8),
+  },
+  RowView: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    width: responsiveScreenWidth(35),
+    // marginTop: responsiveHeight(15),
+    // backgroundColor:'red',
+    position:'absolute',
+    left:responsiveWidth(2),
+    bottom:responsiveHeight(1.5)
+  },
+  TitleView1: {
+    backgroundColor: colors.green,
+    borderRadius: responsiveWidth(1),
+    paddingVertical:responsiveHeight(0.5),
+    paddingHorizontal:responsiveHeight(0.7),
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: responsiveWidth(1),
+  },
+  notRegisteredView: {
+    backgroundColor: colors.white,
+    borderRadius: responsiveWidth(1),
+    paddingVertical:responsiveHeight(0.5),
+    paddingHorizontal:responsiveHeight(0.7),
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: responsiveWidth(1),
+  },
+  freeTitle: {
+    color: colors.royal,
+    fontFamily: fontFamily.bold,
+    fontSize: responsiveFontSize(1.4),
+    width: responsiveWidth(8.5),
+    textAlign: 'center'
+  },
+  freeView: {
+    backgroundColor: colors.white,
+    borderRadius: responsiveWidth(1),
+    paddingVertical:responsiveHeight(0.5),
+    // paddingHorizontal:responsiveHeight(0.3),    
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: responsiveWidth(1),
+  },
+  paidView: {
+    backgroundColor: colors.royal,
+    borderRadius: responsiveWidth(1),
+    paddingVertical:responsiveHeight(0.5),
+    paddingHorizontal:responsiveHeight(0.7),
+
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: responsiveWidth(1),
+  },
+  UserPlus: {
+    height: responsiveFontSize(3),
+    width: responsiveFontSize(3),
+    resizeMode: 'contain',
+  },
+  FlatListMainView: {
+    marginRight: responsiveWidth(3),
+  },
+  RowView1: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: responsiveHeight(0.5),
+    borderRadius: responsiveWidth(2),
+    width: responsiveWidth(31),
+    height: responsiveHeight(3),
+    alignItems: 'center',
+  },
+  rowContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    width: responsiveWidth(31),
+    height: responsiveHeight(2.5),
+  },
+  resourcesContainer: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    width: responsiveWidth(31),
+    height: responsiveHeight(12),
+    marginVertical: 20,
+  },
+  date: {
+    color: colors.royal,
+    marginLeft: responsiveWidth(1),
+    fontFamily: fontFamily.extraBold,
+    fontSize: responsiveFontSize(1.5),
+  },
+  location: {
+    color: colors.greyText,
+    marginLeft: responsiveWidth(1),
+    fontFamily: fontFamily.regular,
+    fontSize: responsiveFontSize(1.4),
+  },
+  BtmTitle: {
+    color: colors.black,
+    fontFamily: fontFamily.extraBold,
+    fontSize: responsiveFontSize(2),
+    width: responsiveWidth(50),
+  },
+  resourceImage: {
+    width: responsiveWidth(30),
+    height: responsiveWidth(30),
+    resizeMode: 'contain',
+    paddingHorizontal: responsiveWidth(3),
+  },
+});
